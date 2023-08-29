@@ -1,8 +1,16 @@
-# Linguagem: Python
+# Linguagem: Java
 
 ## Explicação
-<!-- TODO Revisar pastas -->
-Pasta para códigos e exemplos da linguagem de programação Python. Dentro dela, você encontrará  subpastas chamadas: *codigos*, na qual você deverá armazenar seus códigos; *exemplos*, onde estão disponíveis diversos exemplos de como funciona a linguagem, os quais também podem ser utilizado para testar se os métodos de criação de arquivos executáveis está funcionando; *.vscode*, na qual está armazenado os arquivos que o programa Visual Studio Code utiliza para configurar o projeto corretamente.
+
+Pasta para códigos e exemplos da linguagem de programação Java. Dentro dela, você encontrará  subpastas chamadas: *bin*, a qual armazenar os arquivos executáveis; *lib*, a qual armazena as bibliotecas externas utilizadas nos projetos; *src*, a qual tem as subpastas: *codigos*, a qual deve ser manualmente criada, na qual você deverá armazenar seus códigos e *exemplos*, onde estão disponíveis diversos exemplos de como funciona a linguagem, os quais também podem ser utilizado para testar se os métodos de criação de arquivos executáveis está funcionando; *.vscode*, na qual está armazenado os arquivos que o programa Visual Studio Code utiliza para configurar o projeto corretamente.
+
+## Instalação
+
+1. Verifique se o Java está instalado em sua máquina com o comando `java --version` no terminal. Caso esteja, já está tudo pronto! Caso contrario, prossiga para o proximo passo;
+2. Baixe-o em [https://www.oracle.com/br/java/technologies/downloads/](https://www.oracle.com/br/java/technologies/downloads/) ou instale-o via gerenciador de pacotes da sua distribuição Linux;
+3. Adicione o Java ao PATH do seu sistema operacional, para que o terminal possa reconhecer o comando `java`;
+4. Instale as extensões recomendadas para Java no Visual Studio Code, caso esteja utilizando-o;
+5. Pronto! Agora você pode utilizar o Java em seu terminal e no Visual Studio Code.
 
 ## Como usar
 
@@ -22,7 +30,6 @@ Para modificar a maneira na qual o programa VSCode realiza o processo de compila
 * *extensions.json:* armazena as extensões recomendadas;
 * *settings.json:* armazena configurações especificas para esta pasta;
 * *launch.json:* armazena o os processos que devem ser executados na aba de *Run and Debug*, para executar o processo de depuração com argumentos de linha de comando, basta adiciona-los ao item `"args"` do arquivo;
-* *tasks.json:* armazena os processos de pré-depuração, normalmente executa a compilação dos arquivos para serem executados.
 
 ## Links de referencia
 
